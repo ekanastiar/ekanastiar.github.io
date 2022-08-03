@@ -1,0 +1,20 @@
+.jumbotron {
+    background-color: #B7D3DF;
+    padding-top: 2rem;
+}
+
+.gambar1 {
+    border-radius: 50%;
+}
+
+#galery {
+    background-color: #B7D3DF;
+}
+
+footer a {
+    color: white;
+}
+
+section {
+    padding-top: 5rem;
+}
