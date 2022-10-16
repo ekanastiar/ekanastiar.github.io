@@ -1,620 +1,773 @@
-/* style css reset */
-
-* {
-    padding: 0;
-    margin: 0;
-    scroll-behavior: smooth;
-}
-
-body {
-    background-color: rgb(19, 19, 20);
-    font-family: 'Roboto Mono', monospace;
-    color: white;
-}
-
-
-/* style css container - one */
-
-.container-one {
-    background-color: black;
-    width: 1300px;
-    height: 700px;
-    margin: auto;
-    margin-top: 20px;
-    position: relative;
-}
-
-
-/* style navbar */
-
-.navbar ul li {
-    display: inline;
-    margin-left: 10px;
-}
-
-.navbar {
-    position: absolute;
-    left: 920px;
-    margin-top: 20px;
-}
-
-.navbar ul li a {
-    text-decoration: none;
-    color: white;
-    font-family: 'Comfortaa', cursive;
-    font-weight: bold;
-    transition: 300ms;
-}
-
-.navbar ul li a:hover {
-    color: springgreen;
-}
-
-
-/* style logo navabar */
-
-.logo img {
-    width: 80px;
-    position: absolute;
-    top: 5px;
-    left: 110px;
-}
-
-
-/* style tulisan fron-end */
-
-.box {
-    position: absolute;
-    top: 180px;
-    left: 150px;
-    background-color: springgreen;
-    width: 120px;
-    height: 30px;
-    border-radius: 6px;
-}
-
-.frontend {
-    text-align: center;
-    line-height: 30px;
-    color: black;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-
-/* style quote */
-
-.box-1 {
-    height: 30px;
-    width: 300px;
-    position: absolute;
-    left: 150px;
-    top: 240px;
-    font-size: 25px;
-}
-
-.quote {
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 580;
-}
-
-
-/* style deskripsi singkat */
-
-.box-2 {
-    width: 300px;
-    position: absolute;
-    left: 150px;
-    top: 330px;
-}
-
-.deskripsi {
-    font-family: 'Roboto Mono', monospace;
-    color: rgba(49, 48, 48, 0.904);
-}
-
-
-/* style here me */
-
-.box-3 {
-    position: absolute;
-    top: 450px;
-    left: 153px;
-}
-
-.hereme a {
-    font-family: 'Roboto Mono', monospace;
-    font-size: 23px;
-    color: white;
-    text-decoration: none;
-    transition: 300ms;
-}
-
-.hereme a:hover {
-    color: springgreen;
-}
-
-
-/* style gambar */
-
-.box-gambar {
-    position: absolute;
-    top: 200px;
-    left: 690px;
-}
-
-.box-gambar img {
-    width: 550px;
-}
-
-
-/* style  about */
-
-#about {
-    width: 1300px;
-    margin: auto;
-    background-color: rgb(12, 12, 12);
-    height: 800px;
-    position: relative;
-}
-
-.judul-1 {
-    text-align: center;
-    padding-top: 2rem;
-}
-
-
-/* style kotak keahlian */
-
-.kotak-1 {
-    border: 2px solid springgreen;
-    width: 450px;
-    height: 180px;
-    position: absolute;
-    left: 50px;
-    top: 150px;
-    background-color: rgba(0, 0, 0, 0.664);
-    cursor: pointer;
-    transition: 2s;
-}
-
-.kotak-1:hover {
-    scale: 1.03;
-}
-
-.keahlian-1 {
-    position: absolute;
-    top: 26px;
-    left: 70px;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 20px;
-}
-
-.ket-1 {
-    position: absolute;
-    top: 70px;
-    left: 20px;
-    width: 400px;
-    color: rgba(49, 48, 48, 0.904);
-}
-
-
-/* skill logo */
-
-.img1 {
-    position: absolute;
-    left: -20px;
-    top: 470px;
-}
-
-.img1 img {
-    width: 70px;
-}
-
-.img2 {
-    position: absolute;
-    left: 30px;
-    top: 471px;
-}
-
-.img2 img {
-    width: 80px;
-}
-
-.img3 {
-    position: absolute;
-    left: 80px;
-    top: 458px;
-}
-
-.img3 img {
-    width: 80px;
-}
-
-.img4 {
-    position: absolute;
-    left: 150px;
-    top: 478px;
-}
-
-.img4 img {
-    width: 41px;
-}
-
-
-/* icon-1 */
-
-.icon-1 {
-    font-size: 40px;
-    margin-left: 15px;
-    margin-top: 20px;
-    color: springgreen;
-}
-
-.kotak-2 {
-    border: 2px solid springgreen;
-    width: 450px;
-    height: 180px;
-    position: absolute;
-    left: 50px;
-    top: 350px;
-    background-color: rgba(0, 0, 0, 0.664);
-    cursor: pointer;
-}
-
-.kotak-2:hover {
-    scale: 1.03;
-}
-
-.keahlian-2 {
-    position: absolute;
-    top: 29px;
-    left: 70px;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 20px;
-}
-
-.ket-2 {
-    position: absolute;
-    top: 80px;
-    left: 20px;
-    width: 400px;
-    color: rgba(49, 48, 48, 0.904);
-}
-
-
-/* incon-2 */
-
-.icon-2 {
-    font-size: 40px;
-    margin-left: 15px;
-    margin-top: 20px;
-    color: springgreen;
-}
-
-.kotak-3 {
-    width: 450px;
-    height: 180px;
-    position: absolute;
-    left: 50px;
-    top: 550px;
-    border: 2px solid springgreen;
-    background-color: rgba(0, 0, 0, 0.664);
-    cursor: pointer;
-}
-
-.kotak-3:hover {
-    scale: 1.03;
-}
-
-.keahlian-3 {
-    position: absolute;
-    top: 29px;
-    left: 70px;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 20px;
-}
-
-.ket-3 {
-    position: absolute;
-    top: 80px;
-    left: 20px;
-    width: 400px;
-    color: rgba(49, 48, 48, 0.904);
-}
-
-
-/* icon-3 */
-
-.icon-3 {
-    font-size: 40px;
-    margin-left: 15px;
-    margin-top: 20px;
-    color: springgreen;
-}
-
-
-/* style desktipsi singkat */
-
-.kotak-4 {
-    position: absolute;
-    left: 850px;
-    top: 200px;
-    width: 330px;
-    height: 500px;
-}
-
-.p1 {
-    font-size: 25px;
-}
-
-.p2 {
-    font-size: 30px;
-    margin-top: 10px;
-}
-
-.p3 {
-    color: rgba(49, 48, 48, 0.904);
-    margin-top: 20px;
-}
-
-
-/* style portfolio */
-
-#portfolio {
-    background-color: black;
-    width: 1300px;
-    height: 1000px;
-    margin: auto;
-    position: relative;
-}
-
-.judul-2 {
-    text-align: center;
-    padding-top: 2rem;
-}
-
-
-/* style deskripsi singkat  portfilio*/
-
-.penampung-1 {
-    width: 440px;
-    margin: auto;
-    margin-top: 20px;
-}
-
-.pp1 {
-    color: rgba(49, 48, 48, 0.904);
-    text-align: center;
-}
-
-.see-all {
-    text-align: center;
-    margin-top: 40px;
-}
-
-
-/* style content portflio */
-
-.block-1 {
-    background-color: springgreen;
-    width: 300px;
-    height: 300px;
-    position: absolute;
-    top: 300px;
-    left: 210px;
-}
-
-.block-2 {
-    background-color: springgreen;
-    width: 300px;
-    height: 300px;
-    position: absolute;
-    left: 520px;
-    top: 300px;
-}
-
-.block-3 {
-    background-color: springgreen;
-    width: 300px;
-    height: 300px;
-    position: absolute;
-    top: 610px;
-    left: 210px;
-}
-
-.block-4 {
-    background-color: springgreen;
-    width: 300px;
-    height: 300px;
-    position: absolute;
-    top: 610px;
-    left: 520px;
-}
-
-.block-5 {
-    width: 300px;
-    height: 570px;
-    position: absolute;
-    top: 300px;
-    left: 900px;
-}
-
-.block-5 img {
-    width: 580px;
-    height: 300px;
-    transform: rotate(90deg);
-    position: absolute;
-    left: -140px;
-    top: 140px;
-}
-
-
-/* style contact */
-
-#contact {
-    background-color: rgb(12, 12, 12);
-    width: 1300px;
-    height: 500px;
-    margin: auto;
-    position: relative;
-}
-
-
-/* style judul contat */
-
-.judul-3 {
-    text-align: center;
-    font-size: 35px;
-}
-
-
-/* style deskripsi singakt contact */
-
-.bagian-1 {
-    width: 460px;
-    margin: auto;
-    margin-top: 20px;
-}
-
-.ppp1 {
-    text-align: center;
-    margin-left: 10px;
-    color: rgba(49, 48, 48, 0.904);
-}
-
-
-/* style kubus contact */
-
-.kubus-1 {
-    width: 150px;
-    border: 1px solid springgreen;
-    height: 30px;
-    position: absolute;
-    top: 250px;
-    left: 400px;
-}
-
-.kubus-1:hover {
-    scale: 1.04;
-}
-
-.gt-1 a {
-    color: white;
-    text-decoration: none;
-    top: 2px;
-    left: 40px;
-    position: absolute;
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 20px;
-    letter-spacing: 1.5px;
-}
-
-.kubus-2 {
-    width: 155px;
-    border: 1px solid springgreen;
-    height: 30px;
-    position: absolute;
-    top: 250px;
-    left: 567px;
-}
-
-.kubus-2:hover {
-    scale: 1.04;
-}
-
-.ins-1 a {
-    position: absolute;
-    top: -1px;
-    left: 33px;
-    color: white;
-    text-decoration: none;
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 23px;
-    letter-spacing: 1.5px;
-}
-
-.kubus-3 {
-    width: 270px;
-    border: 1px solid springgreen;
-    height: 30px;
-    position: absolute;
-    top: 320px;
-    left: 508px;
-}
-
-.kubus-3:hover {
-    scale: 1.04;
-}
-
-.mail-1 {
-    position: absolute;
-    top: 1px;
-    left: 37px;
-    color: white;
-    text-decoration: none;
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 20px;
-    letter-spacing: 2px;
-}
-
-.kubus-4 {
-    width: 175px;
-    border: 1px solid springgreen;
-    height: 30px;
-    position: absolute;
-    top: 250px;
-    left: 740px;
-}
-
-.kubus-4:hover {
-    scale: 1.04;
-}
-
-.pt-1 a {
-    color: white;
-    top: -1px;
-    left: 35px;
-    position: absolute;
-    text-decoration: none;
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 22px;
-    letter-spacing: 1.5px;
-}
-
-
-/* style icons */
-
-.ins {
-    font-size: 25px;
-    margin-top: 2px;
-    margin-left: 3px;
-}
-
-.gt {
-    font-size: 25px;
-    margin-top: 2px;
-    margin-left: 3px;
-}
-
-.mail {
-    font-size: 25px;
-    margin-top: 2px;
-    margin-left: 3px;
-}
-
-.pt {
-    font-size: 25px;
-    margin-top: 2px;
-    margin-left: 3px;
-}
-
-
-/* copy right */
-
-.copyright {
-    position: absolute;
-    top: 450px;
-    left: 510px;
-}
+                                                * {
+                                                    padding: 0;
+                                                    margin: 0;
+                                                    scroll-behavior: smooth;
+                                                }
+                                                
+                                                body {
+                                                    background-color: rgb(19, 19, 20);
+                                                    font-family: 'Roboto Mono', monospace;
+                                                    color: white;
+                                                }
+                                                /* style css container - one */
+                                                
+                                                .container-one {
+                                                    background-color: black;
+                                                    width: 100%;
+                                                    height: 700px;
+                                                    margin: auto;
+                                                    position: relative;
+                                                }
+                                                /* style navbar */
+                                                
+                                                .navbar ul li {
+                                                    display: inline;
+                                                    margin-left: 10px;
+                                                }
+                                                
+                                                .navbar {
+                                                    position: absolute;
+                                                    left: 920px;
+                                                    margin-top: 20px;
+                                                }
+                                                
+                                                .navbar ul li a {
+                                                    text-decoration: none;
+                                                    color: white;
+                                                    font-family: 'Comfortaa', cursive;
+                                                    font-weight: bold;
+                                                    transition: 300ms;
+                                                }
+                                                
+                                                .navbar ul li a:hover {
+                                                    color: springgreen;
+                                                }
+                                                /* style logo navabar */
+                                                
+                                                .logo img {
+                                                    width: 80px;
+                                                    position: absolute;
+                                                    top: 5px;
+                                                    left: 110px;
+                                                }
+                                                /* style tulisan fron-end */
+                                                
+                                                .box {
+                                                    position: absolute;
+                                                    top: 180px;
+                                                    left: 150px;
+                                                    background-color: springgreen;
+                                                    width: 120px;
+                                                    height: 30px;
+                                                    border-radius: 6px;
+                                                }
+                                                
+                                                .frontend {
+                                                    text-align: center;
+                                                    line-height: 30px;
+                                                    color: black;
+                                                    font-family: 'Roboto Mono', monospace;
+                                                    font-weight: bold;
+                                                    font-size: 20px;
+                                                }
+                                                /* style quote */
+                                                
+                                                .box-1 {
+                                                    height: 30px;
+                                                    width: 300px;
+                                                    position: absolute;
+                                                    left: 150px;
+                                                    top: 240px;
+                                                    font-size: 25px;
+                                                }
+                                                
+                                                .quote {
+                                                    font-family: 'Roboto Mono', monospace;
+                                                    font-weight: 580;
+                                                }
+                                                /* style deskripsi singkat */
+                                                
+                                                .box-2 {
+                                                    width: 300px;
+                                                    position: absolute;
+                                                    left: 150px;
+                                                    top: 330px;
+                                                }
+                                                
+                                                .deskripsi {
+                                                    font-family: 'Roboto Mono', monospace;
+                                                    color: rgba(49, 48, 48, 0.904);
+                                                }
+                                                /* style here me */
+                                                
+                                                .box-3 {
+                                                    position: absolute;
+                                                    top: 450px;
+                                                    left: 153px;
+                                                }
+                                                
+                                                .hereme a {
+                                                    font-family: 'Roboto Mono', monospace;
+                                                    font-size: 23px;
+                                                    color: white;
+                                                    text-decoration: none;
+                                                    transition: 300ms;
+                                                }
+                                                
+                                                .hereme a:hover {
+                                                    color: springgreen;
+                                                }
+                                                /* style gambar */
+                                                
+                                                .box-gambar {
+                                                    position: absolute;
+                                                    top: 200px;
+                                                    left: 690px;
+                                                }
+                                                
+                                                .box-gambar img {
+                                                    width: 550px;
+                                                }
+                                                
+                                                .box-gambar-1 {
+                                                    position: absolute;
+                                                    left: 660px;
+                                                    top: 250px;
+                                                }
+                                                
+                                                .box-gambar-1 img {
+                                                    width: 200px;
+                                                    rotate: -9deg;
+                                                }
+                                                
+                                                .box-gambar-2 {
+                                                    position: absolute;
+                                                    left: 1110px;
+                                                    top: 340px;
+                                                    rotate: 10deg;
+                                                }
+                                                
+                                                .box-gambar-2 img {
+                                                    width: 200px;
+                                                }
+                                                
+                                                .box-gambar-3 {
+                                                    position: absolute;
+                                                    left: 1000px;
+                                                    top: 100px;
+                                                    rotate: 5deg;
+                                                }
+                                                
+                                                .box-gambar-3 img {
+                                                    width: 200px;
+                                                }
+                                                /* style  about */
+                                                
+                                                #about {
+                                                    width: 100%px;
+                                                    margin: auto;
+                                                    background-color: rgb(12, 12, 12);
+                                                    height: 800px;
+                                                    position: relative;
+                                                }
+                                                
+                                                .judul-1 {
+                                                    text-align: center;
+                                                    padding-top: 2rem;
+                                                }
+                                                /* style kotak keahlian */
+                                                
+                                                .kotak-1 {
+                                                    border: 2px solid springgreen;
+                                                    width: 450px;
+                                                    height: 180px;
+                                                    position: absolute;
+                                                    left: 50px;
+                                                    top: 150px;
+                                                    background-color: rgba(0, 0, 0, 0.664);
+                                                    cursor: pointer;
+                                                    transition: 2s;
+                                                }
+                                                
+                                                .kotak-1:hover {
+                                                    scale: 1.03;
+                                                }
+                                                
+                                                .keahlian-1 {
+                                                    position: absolute;
+                                                    top: 26px;
+                                                    left: 70px;
+                                                    font-family: 'Roboto Mono', monospace;
+                                                    font-size: 20px;
+                                                }
+                                                
+                                                .ket-1 {
+                                                    position: absolute;
+                                                    top: 70px;
+                                                    left: 20px;
+                                                    width: 400px;
+                                                    color: rgba(49, 48, 48, 0.904);
+                                                }
+                                                /* skill logo */
+                                                
+                                                .img1 {
+                                                    position: absolute;
+                                                    left: -10px;
+                                                    top: 470px;
+                                                }
+                                                
+                                                .img1 img {
+                                                    width: 70px;
+                                                }
+                                                
+                                                .img2 {
+                                                    position: absolute;
+                                                    left: 70px;
+                                                    top: 482px;
+                                                }
+                                                
+                                                .img2 img {
+                                                    width: 43px;
+                                                }
+                                                
+                                                .img3 {
+                                                    position: absolute;
+                                                    left: 120px;
+                                                    top: 472px;
+                                                }
+                                                
+                                                .img3 img {
+                                                    width: 60px;
+                                                }
+                                                /* icon-1 */
+                                                
+                                                .icon-1 {
+                                                    font-size: 40px;
+                                                    margin-left: 15px;
+                                                    margin-top: 20px;
+                                                    color: springgreen;
+                                                }
+                                                
+                                                .kotak-2 {
+                                                    border: 2px solid springgreen;
+                                                    width: 450px;
+                                                    height: 180px;
+                                                    position: absolute;
+                                                    left: 50px;
+                                                    top: 350px;
+                                                    background-color: rgba(0, 0, 0, 0.664);
+                                                    cursor: pointer;
+                                                }
+                                                
+                                                .kotak-2:hover {
+                                                    scale: 1.03;
+                                                }
+                                                
+                                                .keahlian-2 {
+                                                    position: absolute;
+                                                    top: 29px;
+                                                    left: 70px;
+                                                    font-family: 'Roboto Mono', monospace;
+                                                    font-size: 20px;
+                                                }
+                                                
+                                                .ket-2 {
+                                                    position: absolute;
+                                                    top: 80px;
+                                                    left: 20px;
+                                                    width: 400px;
+                                                    color: rgba(49, 48, 48, 0.904);
+                                                }
+                                                /* incon-2 */
+                                                
+                                                .icon-2 {
+                                                    font-size: 40px;
+                                                    margin-left: 15px;
+                                                    margin-top: 20px;
+                                                    color: springgreen;
+                                                }
+                                                
+                                                .kotak-3 {
+                                                    width: 450px;
+                                                    height: 180px;
+                                                    position: absolute;
+                                                    left: 50px;
+                                                    top: 550px;
+                                                    border: 2px solid springgreen;
+                                                    background-color: rgba(0, 0, 0, 0.664);
+                                                    cursor: pointer;
+                                                }
+                                                
+                                                .kotak-3:hover {
+                                                    scale: 1.03;
+                                                }
+                                                
+                                                .keahlian-3 {
+                                                    position: absolute;
+                                                    top: 29px;
+                                                    left: 70px;
+                                                    font-family: 'Roboto Mono', monospace;
+                                                    font-size: 20px;
+                                                }
+                                                
+                                                .ket-3 {
+                                                    position: absolute;
+                                                    top: 80px;
+                                                    left: 20px;
+                                                    width: 400px;
+                                                    color: rgba(49, 48, 48, 0.904);
+                                                }
+                                                /* icon-3 */
+                                                
+                                                .icon-3 {
+                                                    font-size: 40px;
+                                                    margin-left: 15px;
+                                                    margin-top: 20px;
+                                                    color: springgreen;
+                                                }
+                                                /* style desktipsi singkat */
+                                                
+                                                .kotak-4 {
+                                                    position: absolute;
+                                                    left: 850px;
+                                                    top: 200px;
+                                                    width: 330px;
+                                                    height: 500px;
+                                                }
+                                                
+                                                .p1 {
+                                                    font-size: 25px;
+                                                }
+                                                
+                                                .p2 {
+                                                    font-size: 30px;
+                                                    margin-top: 10px;
+                                                }
+                                                
+                                                .p3 {
+                                                    color: rgba(49, 48, 48, 0.904);
+                                                    margin-top: 20px;
+                                                }
+                                                /* style portfolio */
+                                                
+                                                #portfolio {
+                                                    background-color: black;
+                                                    width: 100%;
+                                                    height: 1000px;
+                                                    margin: auto;
+                                                    position: relative;
+                                                }
+                                                
+                                                .judul-2 {
+                                                    text-align: center;
+                                                    padding-top: 2rem;
+                                                }
+                                                /* style deskripsi singkat  portfilio*/
+                                                
+                                                .penampung-1 {
+                                                    width: 440px;
+                                                    margin: auto;
+                                                    margin-top: 20px;
+                                                }
+                                                
+                                                .pp1 {
+                                                    color: rgba(49, 48, 48, 0.904);
+                                                    text-align: center;
+                                                }
+                                                
+                                                .see-all {
+                                                    text-align: center;
+                                                    margin-top: 40px;
+                                                }
+                                                /* style content portflio */
+                                                
+                                                .block-1 video {
+                                                    width: 300px;
+                                                    height: 300px;
+                                                    position: absolute;
+                                                    top: 165px;
+                                                    left: 210px;
+                                                }
+                                                
+                                                .block-2 {
+                                                    background-color: springgreen;
+                                                    width: 300px;
+                                                    height: 300px;
+                                                    position: absolute;
+                                                    left: 520px;
+                                                    top: 300px;
+                                                }
+                                                
+                                                .block-3 {
+                                                    background-color: springgreen;
+                                                    width: 300px;
+                                                    height: 300px;
+                                                    position: absolute;
+                                                    top: 610px;
+                                                    left: 210px;
+                                                }
+                                                
+                                                .block-4 {
+                                                    background-color: springgreen;
+                                                    width: 300px;
+                                                    height: 300px;
+                                                    position: absolute;
+                                                    top: 610px;
+                                                    left: 520px;
+                                                }
+                                                
+                                                .block-5 {
+                                                    width: 300px;
+                                                    height: 570px;
+                                                    position: absolute;
+                                                    top: 300px;
+                                                    left: 900px;
+                                                }
+                                                
+                                                .block-5 img {
+                                                    width: 580px;
+                                                    height: 300px;
+                                                    transform: rotate(90deg);
+                                                    position: absolute;
+                                                    left: -140px;
+                                                    top: 140px;
+                                                }
+                                                /* style contact */
+                                                
+                                                #contact {
+                                                    background-color: rgb(12, 12, 12);
+                                                    width: 100%;
+                                                    height: 500px;
+                                                    margin: auto;
+                                                    position: relative;
+                                                }
+                                                /* style judul contat */
+                                                
+                                                .judul-3 {
+                                                    text-align: center;
+                                                    font-size: 35px;
+                                                }
+                                                /* style deskripsi singakt contact */
+                                                
+                                                .bagian-1 {
+                                                    width: 460px;
+                                                    margin: auto;
+                                                    margin-top: 20px;
+                                                }
+                                                
+                                                .ppp1 {
+                                                    text-align: center;
+                                                    margin-left: 10px;
+                                                    color: rgba(49, 48, 48, 0.904);
+                                                }
+                                                /* style kubus contact */
+                                                
+                                                .kubus-1 {
+                                                    width: 150px;
+                                                    border: 1px solid springgreen;
+                                                    height: 30px;
+                                                    position: absolute;
+                                                    top: 250px;
+                                                    left: 430px;
+                                                }
+                                                
+                                                .kubus-1:hover {
+                                                    scale: 1.04;
+                                                }
+                                                
+                                                .gt-1 a {
+                                                    color: white;
+                                                    text-decoration: none;
+                                                    top: 2px;
+                                                    left: 40px;
+                                                    position: absolute;
+                                                    font-family: 'Barlow Condensed', sans-serif;
+                                                    font-size: 20px;
+                                                    letter-spacing: 1.5px;
+                                                }
+                                                
+                                                .kubus-2 {
+                                                    width: 155px;
+                                                    border: 1px solid springgreen;
+                                                    height: 30px;
+                                                    position: absolute;
+                                                    top: 250px;
+                                                    left: 610px;
+                                                }
+                                                
+                                                .kubus-2:hover {
+                                                    scale: 1.04;
+                                                }
+                                                
+                                                .ins-1 a {
+                                                    position: absolute;
+                                                    top: -1px;
+                                                    left: 33px;
+                                                    color: white;
+                                                    text-decoration: none;
+                                                    font-family: 'Barlow Condensed', sans-serif;
+                                                    font-size: 23px;
+                                                    letter-spacing: 1.5px;
+                                                }
+                                                
+                                                .kubus-3 {
+                                                    width: 270px;
+                                                    border: 1px solid springgreen;
+                                                    height: 30px;
+                                                    position: absolute;
+                                                    top: 320px;
+                                                    left: 540px;
+                                                }
+                                                
+                                                .kubus-3:hover {
+                                                    scale: 1.04;
+                                                }
+                                                
+                                                .mail-1 {
+                                                    position: absolute;
+                                                    top: 1px;
+                                                    left: 37px;
+                                                    color: white;
+                                                    text-decoration: none;
+                                                    font-family: 'Barlow Condensed', sans-serif;
+                                                    font-size: 20px;
+                                                    letter-spacing: 2px;
+                                                }
+                                                
+                                                .kubus-4 {
+                                                    width: 175px;
+                                                    border: 1px solid springgreen;
+                                                    height: 30px;
+                                                    position: absolute;
+                                                    top: 250px;
+                                                    left: 790px;
+                                                }
+                                                
+                                                .kubus-4:hover {
+                                                    scale: 1.04;
+                                                }
+                                                
+                                                .pt-1 a {
+                                                    color: white;
+                                                    top: -1px;
+                                                    left: 35px;
+                                                    position: absolute;
+                                                    text-decoration: none;
+                                                    font-family: 'Barlow Condensed', sans-serif;
+                                                    font-size: 22px;
+                                                    letter-spacing: 1.5px;
+                                                }
+                                                /* style icons */
+                                                
+                                                .ins {
+                                                    font-size: 25px;
+                                                    margin-top: 2px;
+                                                    margin-left: 3px;
+                                                }
+                                                
+                                                .gt {
+                                                    font-size: 25px;
+                                                    margin-top: 2px;
+                                                    margin-left: 3px;
+                                                }
+                                                
+                                                .mail {
+                                                    font-size: 25px;
+                                                    margin-top: 2px;
+                                                    margin-left: 3px;
+                                                }
+                                                
+                                                .pt {
+                                                    font-size: 25px;
+                                                    margin-top: 2px;
+                                                    margin-left: 3px;
+                                                }
+                                                /* copy right */
+                                                
+                                                .copyright {
+                                                    position: absolute;
+                                                    top: 450px;
+                                                    left: 545px;
+                                                }
+                                                /* resposive */
+                                                
+                                                @media only screen and (max-width: 400px) {
+                                                    body {
+                                                        overflow-x: hidden;
+                                                    }
+                                                    .container-one {
+                                                        overflow-x: hidden;
+                                                        overflow-y: hidden;
+                                                        height: 600px;
+                                                    }
+                                                    #about {
+                                                        overflow-x: hidden;
+                                                        overflow-y: hidden;
+                                                    }
+                                                    #contact {
+                                                        overflow-x: hidden;
+                                                        overflow-y: hidden;
+                                                    }
+                                                    #portfolio {
+                                                        overflow-x: hidden;
+                                                        overflow-y: hidden;
+                                                    }
+                                                    .navbar {
+                                                        left: 10px;
+                                                        top: 10px;
+                                                    }
+                                                    .navbar ul li {
+                                                        display: inline;
+                                                        margin-top: 20px;
+                                                    }
+                                                    .navbar ul li a {
+                                                        font-size: 15px;
+                                                    }
+                                                    /* logo */
+                                                    .logo img {
+                                                        top: 80px;
+                                                        left: 10px;
+                                                    }
+                                                    /* logo front end */
+                                                    .box {
+                                                        left: 30px;
+                                                        top: 200px;
+                                                    }
+                                                    /* style tulisan */
+                                                    .box-1 {
+                                                        left: 30px;
+                                                        top: 270px;
+                                                    }
+                                                    .box-2 {
+                                                        left: 30px;
+                                                        width: 280px;
+                                                        top: 370px;
+                                                    }
+                                                    .box-3 {
+                                                        top: 500px;
+                                                        left: 30px;
+                                                    }
+                                                    /* about */
+                                                    .judul-1 {
+                                                        margin-left: 1px;
+                                                    }
+                                                    .kotak-1 {
+                                                        width: 380px;
+                                                        left: 10px;
+                                                        height: 150px;
+                                                        top: 700px;
+                                                    }
+                                                    .keahlian-1 {
+                                                        font-size: 17px;
+                                                        left: 75px;
+                                                        top: 40px;
+                                                    }
+                                                    .icon-1 {
+                                                        font-size: 40px;
+                                                        margin-top: -1px;
+                                                        margin-left: 170px;
+                                                    }
+                                                    .ket-1 {
+                                                        font-size: 15px;
+                                                        text-align: center;
+                                                        width: 320px;
+                                                        left: 30px;
+                                                    }
+                                                    .kotak-2 {
+                                                        width: 380px;
+                                                        left: 10px;
+                                                        height: 150px;
+                                                        top: 900px;
+                                                    }
+                                                    .keahlian-2 {
+                                                        font-size: 17px;
+                                                        left: 90px;
+                                                        top: 45px;
+                                                    }
+                                                    .icon-2 {
+                                                        font-size: 40px;
+                                                        margin-top: -1px;
+                                                        margin-left: 170px;
+                                                    }
+                                                    .ket-2 {
+                                                        font-size: 15px;
+                                                        text-align: center;
+                                                        width: 320px;
+                                                        font-size: 13px;
+                                                        left: 30px;
+                                                    }
+                                                    .kotak-3 {
+                                                        width: 380px;
+                                                        left: 10px;
+                                                        height: 150px;
+                                                        top: 1100px;
+                                                    }
+                                                    .keahlian-3 {
+                                                        font-size: 17px;
+                                                        left: 120px;
+                                                        top: 45px;
+                                                    }
+                                                    .icon-3 {
+                                                        font-size: 40px;
+                                                        margin-top: -1px;
+                                                        margin-left: 170px;
+                                                    }
+                                                    .ket-3 {
+                                                        font-size: 13px;
+                                                        text-align: center;
+                                                        width: 330px;
+                                                    }
+                                                    #about {
+                                                        height: 1300px;
+                                                    }
+                                                    .kotak-4 {
+                                                        left: 15px;
+                                                        top: 120px;
+                                                        width: 320px;
+                                                    }
+                                                    .penampung-1 {
+                                                        width: 310px;
+                                                    }
+                                                    .block-1 video {
+                                                        width: 300px;
+                                                        position: absolute;
+                                                        top: 90px;
+                                                        left: 50px;
+                                                    }
+                                                    .block-3 {
+                                                        left: 1000px;
+                                                    }
+                                                    #portfolio {
+                                                        height: 1300px;
+                                                    }
+                                                    .block-5 img {
+                                                        left: -990px;
+                                                        top: 450px;
+                                                    }
+                                                    #contact {
+                                                        height: 700px;
+                                                    }
+                                                    .ppp1 {
+                                                        width: 380px;
+                                                    }
+                                                    .kubus-1 {
+                                                        left: 119px;
+                                                        top: 200px;
+                                                    }
+                                                    .kubus-2 {
+                                                        left: 115px;
+                                                        top: 250px;
+                                                    }
+                                                    .kubus-4 {
+                                                        left: 104px;
+                                                        top: 300px;
+                                                    }
+                                                    .kubus-3 {
+                                                        left: 65px;
+                                                        top: 350px;
+                                                    }
+                                                    .copyright {
+                                                        left: 55px;
+                                                        top: 600px
+                                                    }
+                                                }
